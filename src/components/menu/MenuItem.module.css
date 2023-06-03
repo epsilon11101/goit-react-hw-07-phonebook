@@ -1,0 +1,16 @@
+.subMenu {
+    width: 90%;
+    max-height: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 20px;
+    text-transform: capitalize;
+}
+
+.subMenu:hover {
+    background-color: rgb(52, 169, 232);
+    color: white;
+    border-radius: 10px;
+}
