@@ -67,12 +67,12 @@ input::-moz-placeholder {
     text-transform: capitalize;
 }
 
-.mainWrapper ul li:hover {
-    background-color: rgb(226, 226, 226);
-    border-radius: 5px;
-}
-
 .links {
     text-decoration: none;
     color: black;
+}
+
+.mainWrapper .link:hover {
+    background-color: rgb(226, 226, 226);
+    border-radius: 5px;
 }

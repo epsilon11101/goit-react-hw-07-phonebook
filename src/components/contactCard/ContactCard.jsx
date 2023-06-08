@@ -1,11 +1,7 @@
-import UserProfile from "./UserProfile";
-import css from "./ContactCard.module.css";
-import avatar from "../../assets/avatar.png";
-import { useParams } from "react-router-dom";
+import Form from "./Form";
 
 const ContactCard = () => {
-  const { contactId } = useParams();
-  return <UserProfile name={contactId} src={avatar} />;
+  return <Form addContact={false} />;
 };
 
 export default ContactCard;

@@ -1,7 +1,6 @@
-import NewContact from "../components/contacts/NewContact";
-
+import Form from "../components/contactCard/Form";
 const AddContact = () => {
-  return <NewContact />;
+  return <Form addContact={true} />;
 };
 
 export default AddContact;

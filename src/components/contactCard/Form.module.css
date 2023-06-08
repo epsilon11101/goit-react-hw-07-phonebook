@@ -1,0 +1,113 @@
+form.contactWrapper {
+    width: 80%;
+    background-color: rgb(129, 27, 150);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: white;
+}
+
+
+form .iconContainer {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+
+form .contactEdit:hover {
+    cursor: pointer;
+    color: rgb(208, 15, 247);
+}
+
+
+form .contactEdit,
+form .userForm,
+form .contactInfo {
+    width: 80%;
+    display: flex;
+    gap: 50px;
+    background-color: rgba(84, 84, 84, 0.303);
+    text-transform: capitalize;
+    color: white;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+form .contactEdit {
+    font-size: 1rem;
+    width: 3%;
+}
+
+form .contactInfo .avatar {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.form label {
+    width: 85%;
+}
+
+.form input {
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    color: rgb(129, 27, 150);
+}
+
+.form input:focus {
+    border: 2px solid rgb(255, 0, 200);
+}
+
+.form input::placeholder {
+    font-size: 0.8rem;
+    color: rgba(255, 0, 200, 0.37);
+    font-weight: bold;
+}
+
+.form button {
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    background-color: rgb(255, 127, 238);
+    color: white;
+    font-weight: bold;
+}
+
+.form button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.form button.disabled {
+
+    background-color: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+
+}
